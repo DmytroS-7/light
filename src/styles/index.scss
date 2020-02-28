@@ -9,15 +9,16 @@ body {
 }
 
 .heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 400;
   color: #ffffff;
   padding: 40px 0;
 }
 
 .light {
-  color: yellow;
+  color: black;
   font-size: 25vw;
 }
 
@@ -28,4 +29,14 @@ body {
 .box-button {
   text-align: center;
   padding-top: 40px;
+}
+
+button {
+  width: 130px;
+  height: 50px;
+  margin: 0 3px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: yellow;
 }
