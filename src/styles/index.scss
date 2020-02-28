@@ -1,6 +1,31 @@
-$body-color: slateblue;
-
 body {
-  color: $body-color;
   font-family: sans-serif;
+  background-color: #7b7a7b;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 40px 0;
+}
+
+.light {
+  color: yellow;
+  font-size: 25vw;
+}
+
+.box-light {
+  text-align: center;
+}
+
+.box-button {
+  text-align: center;
+  padding-top: 40px;
 }
