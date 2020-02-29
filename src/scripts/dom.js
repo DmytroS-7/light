@@ -2,8 +2,15 @@ function buttonOnLight() {
   const heading = document.getElementsByClassName("heading")[0];
   heading.innerHTML = "Bulb is: ON";
   heading.style.color = "black";
+  let inputColor = document.getElementsByName("input-color")[0].value;
   const light = document.getElementsByClassName("light")[0];
-  light.style.color = "yellow";
+  console.log(inputColor);
+  if (inputColor) {
+    light.style.color = inputColor;
+  } else {
+    light.style.color = "yellow";
+  }
+
   const backgroundBody = document.getElementsByTagName("body")[0];
   backgroundBody.style.backgroundColor = "#ffffff";
 }
